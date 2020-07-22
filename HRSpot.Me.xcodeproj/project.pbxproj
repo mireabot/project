@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34F0E73FB065C31211CFA66B /* Pods_HRSpot_Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AFA8FE1AB848D6A25EB2F1 /* Pods_HRSpot_Me.framework */; };
+		6A524E16248E403D0098C405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A524E15248E403D0098C405 /* AppDelegate.swift */; };
+		6A524E18248E403D0098C405 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A524E17248E403D0098C405 /* SceneDelegate.swift */; };
+		6A524E1B248E403D0098C405 /* HRSpot_Me.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A524E19248E403D0098C405 /* HRSpot_Me.xcdatamodeld */; };
+		6A524E1D248E403D0098C405 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A524E1C248E403D0098C405 /* ContentView.swift */; };
+		6A524E1F248E403E0098C405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A524E1E248E403E0098C405 /* Assets.xcassets */; };
+		6A524E22248E403E0098C405 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A524E21248E403E0098C405 /* Preview Assets.xcassets */; };
+		6A524E25248E403E0098C405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A524E23248E403E0098C405 /* LaunchScreen.storyboard */; };
+		6A524E30248E403E0098C405 /* HRSpot_MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A524E2F248E403E0098C405 /* HRSpot_MeTests.swift */; };
+		6A524E3B248E403E0098C405 /* HRSpot_MeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A524E3A248E403E0098C405 /* HRSpot_MeUITests.swift */; };
+		6A72FDBD24ACD2D30074DA10 /* LocationMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A72FDBC24ACD2D30074DA10 /* LocationMan.swift */; };
+		6AA59EC3248E609A003D97A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AA59EC2248E609A003D97A3 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A524E2C248E403E0098C405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A524E0A248E403D0098C405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A524E11248E403D0098C405;
+			remoteInfo = HRSpot.Me;
+		};
+		6A524E37248E403E0098C405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A524E0A248E403D0098C405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A524E11248E403D0098C405;
+			remoteInfo = HRSpot.Me;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58AC828EEEB72B46FB5ED16B /* Pods-HRSpot.Me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRSpot.Me.release.xcconfig"; path = "Target Support Files/Pods-HRSpot.Me/Pods-HRSpot.Me.release.xcconfig"; sourceTree = "<group>"; };
+		6A524E12248E403D0098C405 /* HRSpot.Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRSpot.Me.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A524E15248E403D0098C405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A524E17248E403D0098C405 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6A524E1A248E403D0098C405 /* HRSpot_Me.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HRSpot_Me.xcdatamodel; sourceTree = "<group>"; };
+		6A524E1C248E403D0098C405 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A524E1E248E403E0098C405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A524E21248E403E0098C405 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A524E24248E403E0098C405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A524E26248E403E0098C405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A524E2B248E403E0098C405 /* HRSpot.MeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRSpot.MeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A524E2F248E403E0098C405 /* HRSpot_MeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRSpot_MeTests.swift; sourceTree = "<group>"; };
+		6A524E31248E403E0098C405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A524E36248E403E0098C405 /* HRSpot.MeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRSpot.MeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A524E3A248E403E0098C405 /* HRSpot_MeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRSpot_MeUITests.swift; sourceTree = "<group>"; };
+		6A524E3C248E403E0098C405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A72FDBC24ACD2D30074DA10 /* LocationMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMan.swift; sourceTree = "<group>"; };
+		6AA59EC2248E609A003D97A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84C46BED2031D9460290902E /* Pods-HRSpot.Me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRSpot.Me.debug.xcconfig"; path = "Target Support Files/Pods-HRSpot.Me/Pods-HRSpot.Me.debug.xcconfig"; sourceTree = "<group>"; };
+		96AFA8FE1AB848D6A25EB2F1 /* Pods_HRSpot_Me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HRSpot_Me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A524E0F248E403D0098C405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F0E73FB065C31211CFA66B /* Pods_HRSpot_Me.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A524E28248E403E0098C405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A524E33248E403E0098C405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33489A31086BFF4DEBB566A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96AFA8FE1AB848D6A25EB2F1 /* Pods_HRSpot_Me.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A524E09248E403D0098C405 = {
+			isa = PBXGroup;
+			children = (
+				6A524E14248E403D0098C405 /* HRSpot.Me */,
+				6A524E2E248E403E0098C405 /* HRSpot.MeTests */,
+				6A524E39248E403E0098C405 /* HRSpot.MeUITests */,
+				6A524E13248E403D0098C405 /* Products */,
+				D9184449BCD7BC4CEE5515AA /* Pods */,
+				33489A31086BFF4DEBB566A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A524E13248E403D0098C405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A524E12248E403D0098C405 /* HRSpot.Me.app */,
+				6A524E2B248E403E0098C405 /* HRSpot.MeTests.xctest */,
+				6A524E36248E403E0098C405 /* HRSpot.MeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A524E14248E403D0098C405 /* HRSpot.Me */ = {
+			isa = PBXGroup;
+			children = (
+				6A524E15248E403D0098C405 /* AppDelegate.swift */,
+				6A524E17248E403D0098C405 /* SceneDelegate.swift */,
+				6A524E1C248E403D0098C405 /* ContentView.swift */,
+				6A72FDBC24ACD2D30074DA10 /* LocationMan.swift */,
+				6A524E1E248E403E0098C405 /* Assets.xcassets */,
+				6A524E23248E403E0098C405 /* LaunchScreen.storyboard */,
+				6A524E26248E403E0098C405 /* Info.plist */,
+				6A524E19248E403D0098C405 /* HRSpot_Me.xcdatamodeld */,
+				6AA59EC2248E609A003D97A3 /* GoogleService-Info.plist */,
+				6A524E20248E403E0098C405 /* Preview Content */,
+			);
+			path = HRSpot.Me;
+			sourceTree = "<group>";
+		};
+		6A524E20248E403E0098C405 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A524E21248E403E0098C405 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A524E2E248E403E0098C405 /* HRSpot.MeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A524E2F248E403E0098C405 /* HRSpot_MeTests.swift */,
+				6A524E31248E403E0098C405 /* Info.plist */,
+			);
+			path = HRSpot.MeTests;
+			sourceTree = "<group>";
+		};
+		6A524E39248E403E0098C405 /* HRSpot.MeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A524E3A248E403E0098C405 /* HRSpot_MeUITests.swift */,
+				6A524E3C248E403E0098C405 /* Info.plist */,
+			);
+			path = HRSpot.MeUITests;
+			sourceTree = "<group>";
+		};
+		D9184449BCD7BC4CEE5515AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84C46BED2031D9460290902E /* Pods-HRSpot.Me.debug.xcconfig */,
+				58AC828EEEB72B46FB5ED16B /* Pods-HRSpot.Me.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A524E11248E403D0098C405 /* HRSpot.Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A524E3F248E403E0098C405 /* Build configuration list for PBXNativeTarget "HRSpot.Me" */;
+			buildPhases = (
+				E01B4C071E3CB74166AB57D8 /* [CP] Check Pods Manifest.lock */,
+				6A524E0E248E403D0098C405 /* Sources */,
+				6A524E0F248E403D0098C405 /* Frameworks */,
+				6A524E10248E403D0098C405 /* Resources */,
+				E886D5E2996AC2F17479836A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRSpot.Me;
+			productName = HRSpot.Me;
+			productReference = 6A524E12248E403D0098C405 /* HRSpot.Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A524E2A248E403E0098C405 /* HRSpot.MeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A524E42248E403E0098C405 /* Build configuration list for PBXNativeTarget "HRSpot.MeTests" */;
+			buildPhases = (
+				6A524E27248E403E0098C405 /* Sources */,
+				6A524E28248E403E0098C405 /* Frameworks */,
+				6A524E29248E403E0098C405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A524E2D248E403E0098C405 /* PBXTargetDependency */,
+			);
+			name = HRSpot.MeTests;
+			productName = HRSpot.MeTests;
+			productReference = 6A524E2B248E403E0098C405 /* HRSpot.MeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A524E35248E403E0098C405 /* HRSpot.MeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A524E45248E403E0098C405 /* Build configuration list for PBXNativeTarget "HRSpot.MeUITests" */;
+			buildPhases = (
+				6A524E32248E403E0098C405 /* Sources */,
+				6A524E33248E403E0098C405 /* Frameworks */,
+				6A524E34248E403E0098C405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A524E38248E403E0098C405 /* PBXTargetDependency */,
+			);
+			name = HRSpot.MeUITests;
+			productName = HRSpot.MeUITests;
+			productReference = 6A524E36248E403E0098C405 /* HRSpot.MeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A524E0A248E403D0098C405 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = MKM.LLC;
+				TargetAttributes = {
+					6A524E11248E403D0098C405 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					6A524E2A248E403E0098C405 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6A524E11248E403D0098C405;
+					};
+					6A524E35248E403E0098C405 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6A524E11248E403D0098C405;
+					};
+				};
+			};
+			buildConfigurationList = 6A524E0D248E403D0098C405 /* Build configuration list for PBXProject "HRSpot.Me" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A524E09248E403D0098C405;
+			productRefGroup = 6A524E13248E403D0098C405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A524E11248E403D0098C405 /* HRSpot.Me */,
+				6A524E2A248E403E0098C405 /* HRSpot.MeTests */,
+				6A524E35248E403E0098C405 /* HRSpot.MeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A524E10248E403D0098C405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A524E25248E403E0098C405 /* LaunchScreen.storyboard in Resources */,
+				6AA59EC3248E609A003D97A3 /* GoogleService-Info.plist in Resources */,
+				6A524E22248E403E0098C405 /* Preview Assets.xcassets in Resources */,
+				6A524E1F248E403E0098C405 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A524E29248E403E0098C405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A524E34248E403E0098C405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E01B4C071E3CB74166AB57D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HRSpot.Me-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E886D5E2996AC2F17479836A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HRSpot.Me/Pods-HRSpot.Me-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HRSpot.Me/Pods-HRSpot.Me-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HRSpot.Me/Pods-HRSpot.Me-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A524E0E248E403D0098C405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A524E16248E403D0098C405 /* AppDelegate.swift in Sources */,
+				6A524E1B248E403D0098C405 /* HRSpot_Me.xcdatamodeld in Sources */,
+				6A524E1D248E403D0098C405 /* ContentView.swift in Sources */,
+				6A72FDBD24ACD2D30074DA10 /* LocationMan.swift in Sources */,
+				6A524E18248E403D0098C405 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A524E27248E403E0098C405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A524E30248E403E0098C405 /* HRSpot_MeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A524E32248E403E0098C405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A524E3B248E403E0098C405 /* HRSpot_MeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A524E2D248E403E0098C405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A524E11248E403D0098C405 /* HRSpot.Me */;
+			targetProxy = 6A524E2C248E403E0098C405 /* PBXContainerItemProxy */;
+		};
+		6A524E38248E403E0098C405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A524E11248E403D0098C405 /* HRSpot.Me */;
+			targetProxy = 6A524E37248E403E0098C405 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A524E23248E403E0098C405 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A524E24248E403E0098C405 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A524E3D248E403E0098C405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A524E3E248E403E0098C405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A524E40248E403E0098C405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C46BED2031D9460290902E /* Pods-HRSpot.Me.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HRSpot.Me/Preview Content\"";
+				DEVELOPMENT_TEAM = F63AT3Y2WN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HRSpot.Me/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MKM.HRSpot-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A524E41248E403E0098C405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58AC828EEEB72B46FB5ED16B /* Pods-HRSpot.Me.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HRSpot.Me/Preview Content\"";
+				DEVELOPMENT_TEAM = F63AT3Y2WN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HRSpot.Me/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MKM.HRSpot-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A524E43248E403E0098C405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F63AT3Y2WN;
+				INFOPLIST_FILE = HRSpot.MeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MKM.HRSpot-MeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HRSpot.Me.app/HRSpot.Me";
+			};
+			name = Debug;
+		};
+		6A524E44248E403E0098C405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F63AT3Y2WN;
+				INFOPLIST_FILE = HRSpot.MeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MKM.HRSpot-MeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HRSpot.Me.app/HRSpot.Me";
+			};
+			name = Release;
+		};
+		6A524E46248E403E0098C405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F63AT3Y2WN;
+				INFOPLIST_FILE = HRSpot.MeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MKM.HRSpot-MeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HRSpot.Me;
+			};
+			name = Debug;
+		};
+		6A524E47248E403E0098C405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F63AT3Y2WN;
+				INFOPLIST_FILE = HRSpot.MeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MKM.HRSpot-MeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HRSpot.Me;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A524E0D248E403D0098C405 /* Build configuration list for PBXProject "HRSpot.Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A524E3D248E403E0098C405 /* Debug */,
+				6A524E3E248E403E0098C405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A524E3F248E403E0098C405 /* Build configuration list for PBXNativeTarget "HRSpot.Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A524E40248E403E0098C405 /* Debug */,
+				6A524E41248E403E0098C405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A524E42248E403E0098C405 /* Build configuration list for PBXNativeTarget "HRSpot.MeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A524E43248E403E0098C405 /* Debug */,
+				6A524E44248E403E0098C405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A524E45248E403E0098C405 /* Build configuration list for PBXNativeTarget "HRSpot.MeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A524E46248E403E0098C405 /* Debug */,
+				6A524E47248E403E0098C405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6A524E19248E403D0098C405 /* HRSpot_Me.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6A524E1A248E403D0098C405 /* HRSpot_Me.xcdatamodel */,
+			);
+			currentVersion = 6A524E1A248E403D0098C405 /* HRSpot_Me.xcdatamodel */;
+			path = HRSpot_Me.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6A524E0A248E403D0098C405 /* Project object */;
+}
